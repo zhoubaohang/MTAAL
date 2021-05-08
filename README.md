@@ -33,18 +33,18 @@ python preprocess.py --dataset=[ncbi, cdr] --wordembedding=[word2vec, glove]
 | al | str | Choose the active learning method. |
 
 ```cmd
-python main.py params\
---epoch=70\
---label=0.2\
---unlabel=0.7\
---test=0.1\
---batch_size=32\
---query_num=64\
---ad_task=[True, False]\
---dataset=[ncbi, cdr]\
---rnn_units=64\
---task=[all, ner, nen]\
---gpu=[True, False]\
+python main.py params \
+--epoch=70 \
+--label=0.2 \
+--unlabel=0.7 \
+--test=0.1 \
+--batch_size=32 \
+--query_num=64 \
+--ad_task=[True, False] \
+--dataset=[ncbi, cdr] \
+--rnn_units=64 \
+--task=[all, ner, nen] \
+--gpu=[True, False] \
 --al=[diversity, random, lc, entropy, mnlp]
 ```
 3. After running the model, the test result is saved in the "results" folder.
