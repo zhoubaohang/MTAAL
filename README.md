@@ -3,7 +3,7 @@
 
 [Authors] Baohang Zhou, Xiangrui Cai, Ying Zhang, Wenya Guo, Xiaojie Yuan
 
-[AAAI 2021 paper (Waiting for publication)]()
+[AAAI 2021 paper (Waiting for publication)]() [[video](https://slideslive.com/38949282/mtaal-multitask-adversarial-active-learning-for-medical-named-entity-recognition-and-normalization?ref=account-folder-75497-folders)]
 
 ## Preparation
 1. Clone the repo to your local.
